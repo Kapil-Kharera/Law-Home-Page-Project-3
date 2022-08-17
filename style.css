@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+a , p {
+    color: #a7a1a1;
+}
+
+body {
+    font-family: sans-serif;
+    color: #ffffff;
+    background-image: url('./assets/bg.jpg');
+    background-size: cover;
+    background-position: center 100px;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 20vh;
+}
+
+.container {
+    padding: 30px 80px;
+    background-color: #2a271d;
+    height: 50vh;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 120px;
+}
+
+.navLink {
+    margin-left: 15rem;
+}
+
+.list {
+    display: flex;
+    list-style: none;
+}
+
+.list-item  {
+    margin: 10px 24px;
+}
+
+.list-item a {
+    transition: color 0.2s ease-in-out;
+}
+
+.list-item a:hover {
+    color: #ffffff;
+}
+
+.nabBtn button {
+    padding: 12px 28px;
+    border-radius: 5px;
+    border: 1px solid #daa520;
+    background-color: transparent;
+    color: #daa520;
+    cursor: pointer;
+}
+
+.hero {
+    padding: 3rem 0;
+    display: flex;
+}
+
+.hero-left {
+    width: 49.99%;
+    text-transform: capitalize;
+}
+
+.hero-left h1 {
+    font-size: 3.9rem;
+    padding-right: 130px;
+}
+
+.hero-right {
+    width: 49.99%;
+    font-size: 1.8rem;
+}
+
+.hero-right p {
+    font-size: 1.2rem;
+    padding: 20px 100px 0px 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
